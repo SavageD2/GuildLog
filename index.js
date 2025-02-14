@@ -1,5 +1,7 @@
 require("dotenv").config();
 const { Client, GatewayIntentBits } = require("discord.js");
+const mongoose = require('mongoose');
+const Member = require('./models/Member');
 
 const client = new Client({
     intents: [
@@ -9,7 +11,7 @@ const client = new Client({
     ],
 });
 
-const anciensMembres = new Set();
+const oldMembers = new Set();
 
 client.once("ready", async () => {
     console.log(`${client.user.tag} est connecté et prêt !`);
@@ -21,7 +23,30 @@ client.once("ready", async () => {
     }
 
     try {
+        
         await guild.members.fetch();
+
+        guild.members.cache.forEach(async (member) => {
+            try {
+                
+                let existingMember = await Member.findOne({ discordId: member.id });
+
+                if (!existingMember) {
+                    existingMember = new Member({
+                        discordId: member.id,
+                        username: member.user.tag,
+                        roles: member.roles.cache.map(role => role.name),
+                        joinedAt: member.joinedAt,
+                    });
+
+                    await existingMember.save();
+                    console.log(`✅ Membre enregistré en base : ${member.user.tag}`);
+                }
+
+            } catch (error) {
+                console.error("❌ Erreur lors de l'enregistrement du membre :", error);
+            }
+        });
 
         const role = guild.roles.cache.find(role => role.name === "THE UNDEFEATED");
         if (!role) {
@@ -33,21 +58,17 @@ client.once("ready", async () => {
 
         console.log(`✅ Membres ayant le rôle ${role.name} :`);
         membersWithRole.forEach(member => console.log(`- ${member.user.tag} (${member.id})`));
-        
+
     } catch (error) {
         console.error("❌ Erreur lors de la récupération des membres :", error);
     }
 });
 
-client.on("guildMemberRemove", async (member) => {
-    console.log(`📤 ${member.user.tag} a quitté le serveur.`);
-    anciensMembres.add(member.id);
-});
 
 client.on("guildMemberAdd", async (member) => {
     console.log(`📥 ${member.user.tag} a rejoint le serveur.`);
 
-    if (anciensMembres.has(member.id)) {
+    if (oldMembers.has(member.id)) {
         console.log(`🔴 Ancien membre détecté : ${member.user.tag}`);
 
         const guild = member.guild;
@@ -59,8 +80,64 @@ client.on("guildMemberAdd", async (member) => {
             console.error("❌ Channel #staff introuvable !");
         }
 
-        anciensMembres.delete(member.id);
+        oldMembers.delete(member.id);
+    }
+
+    try {
+        let existingMember = await Member.findOne({ discordId: member.id });
+
+        if (existingMember) {
+            console.log(`🔴 Ancien membre détecté : ${member.user.tag}`);
+            existingMember.leftAt = null;
+        } else {
+            existingMember = new Member({
+                discordId: member.id,
+                username: member.user.tag,
+                roles: member.roles.cache.map(role => role.name),
+                joinedAt: new Date(),
+            });
+        }
+
+        await existingMember.save();
+        console.log(`✅ Membre enregistré en base : ${member.user.tag}`);
+
+    } catch (error) {
+        console.error("❌ Erreur lors de l'enregistrement du membre :", error);
+    }
+});
+
+client.on("guildMemberRemove", async (member) => {
+    console.log(`📤 ${member.user.tag} a quitté le serveur.`);
+    oldMembers.add(member.id);
+
+    try {
+        const existingMember = await Member.findOne({ discordId: member.id });
+
+        if (existingMember) {
+            existingMember.leftAt = new Date();
+            await existingMember.save();
+            console.log(`🔴 Membre marqué comme parti : ${member.user.tag}`);
+        }
+
+    } catch (error) {
+        console.error("❌ Erreur lors de la mise à jour du membre :", error);
     }
 });
 
 client.login(process.env.DISCORD_TOKEN);
+
+
+async function connectDB() {
+    try {
+        await mongoose.connect(process.env.MONGODB_URI, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+        });
+        console.log("✅ Connexion à la base de données réussie !");
+    } catch (error) {
+        console.error("❌ Erreur lors de la connexion à la base de données :", error);
+        process.exit(1);
+    }
+}
+
+connectDB();
