@@ -1,11 +1,19 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
-const MemberSchema = new mongoose.Schema({
-    discordId: {type: String, required: true, unique:true},
-    username: {type: String, required: true},
-    roles:[String],
-    joinedAt: {type: Date, required: true},
-    leftAt: {type: Date}
+const memberSchema = new mongoose.Schema({
+    discordId: { type: String, required: true, unique: true },
+    username: { type: String, required: true },
+    roles: { type: [String], default: [] },
+    avatarId: { type: String, default: null },
+    joinedAt: { type: Date },
+    leftAt: { type: Date, default: null }
 });
 
-module.exports = mongoose.model('Member', MemberSchema);
+memberSchema.methods.getAvatarUrl = function () {
+    return this.avatarId
+        ? `https://cdn.discordapp.com/avatars/${this.discordId}/${this.avatarId}.png`
+        : `https://cdn.discordapp.com/embed/avatars/0.png`;
+};
+
+const Member = mongoose.model("Member", memberSchema);
+module.exports = Member;

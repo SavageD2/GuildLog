@@ -13,6 +13,34 @@ const client = new Client({
 
 const oldMembers = new Set();
 
+async function updateMember(member) {
+    try {
+        let existingMember = await Member.findOne({ discordId: member.id });
+
+        if (existingMember) {
+            existingMember.username = member.user.tag;
+            existingMember.roles = member.roles.cache.map(role => role.name);
+            existingMember.avatarId = member.user.avatar ? member.user.avatar : null;
+            existingMember.joinedAt = member.joinedAt;
+            existingMember.leftAt = null;
+        } else {
+           
+            existingMember = new Member({
+                discordId: member.id,
+                username: member.user.tag,
+                roles: member.roles.cache.map(role => role.name),
+                avatarId: member.user.avatar ? member.user.avatar : null,
+                joinedAt: member.joinedAt,
+            });
+        }
+
+        await existingMember.save();
+        console.log(`✅ Membre enregistré ou mis à jour : ${member.user.tag}`);
+    } catch (error) {
+        console.error("❌ Erreur lors de l'enregistrement ou de la mise à jour du membre :", error);
+    }
+}
+
 client.once("ready", async () => {
     console.log(`${client.user.tag} est connecté et prêt !`);
 
@@ -23,29 +51,10 @@ client.once("ready", async () => {
     }
 
     try {
-        
         await guild.members.fetch();
 
         guild.members.cache.forEach(async (member) => {
-            try {
-                
-                let existingMember = await Member.findOne({ discordId: member.id });
-
-                if (!existingMember) {
-                    existingMember = new Member({
-                        discordId: member.id,
-                        username: member.user.tag,
-                        roles: member.roles.cache.map(role => role.name),
-                        joinedAt: member.joinedAt,
-                    });
-
-                    await existingMember.save();
-                    console.log(`✅ Membre enregistré en base : ${member.user.tag}`);
-                }
-
-            } catch (error) {
-                console.error("❌ Erreur lors de l'enregistrement du membre :", error);
-            }
+            await updateMember(member);
         });
 
         const role = guild.roles.cache.find(role => role.name === "THE UNDEFEATED");
@@ -55,7 +64,6 @@ client.once("ready", async () => {
         }
 
         const membersWithRole = guild.members.cache.filter(member => member.roles.cache.has(role.id));
-
         console.log(`✅ Membres ayant le rôle ${role.name} :`);
         membersWithRole.forEach(member => console.log(`- ${member.user.tag} (${member.id})`));
 
@@ -63,7 +71,6 @@ client.once("ready", async () => {
         console.error("❌ Erreur lors de la récupération des membres :", error);
     }
 });
-
 
 client.on("guildMemberAdd", async (member) => {
     console.log(`📥 ${member.user.tag} a rejoint le serveur.`);
@@ -83,26 +90,13 @@ client.on("guildMemberAdd", async (member) => {
         oldMembers.delete(member.id);
     }
 
-    try {
-        let existingMember = await Member.findOne({ discordId: member.id });
+    await updateMember(member);
+});
 
-        if (existingMember) {
-            console.log(`🔴 Ancien membre détecté : ${member.user.tag}`);
-            existingMember.leftAt = null;
-        } else {
-            existingMember = new Member({
-                discordId: member.id,
-                username: member.user.tag,
-                roles: member.roles.cache.map(role => role.name),
-                joinedAt: new Date(),
-            });
-        }
-
-        await existingMember.save();
-        console.log(`✅ Membre enregistré en base : ${member.user.tag}`);
-
-    } catch (error) {
-        console.error("❌ Erreur lors de l'enregistrement du membre :", error);
+client.on("guildMemberUpdate", async (oldMember, newMember) => {
+    if (oldMember.user.avatar !== newMember.user.avatar) {
+        console.log(`🔄 Avatar mis à jour pour ${newMember.user.tag}`);
+        await updateMember(newMember);
     }
 });
 
@@ -110,22 +104,10 @@ client.on("guildMemberRemove", async (member) => {
     console.log(`📤 ${member.user.tag} a quitté le serveur.`);
     oldMembers.add(member.id);
 
-    try {
-        const existingMember = await Member.findOne({ discordId: member.id });
-
-        if (existingMember) {
-            existingMember.leftAt = new Date();
-            await existingMember.save();
-            console.log(`🔴 Membre marqué comme parti : ${member.user.tag}`);
-        }
-
-    } catch (error) {
-        console.error("❌ Erreur lors de la mise à jour du membre :", error);
-    }
+    await updateMember(member);
 });
 
 client.login(process.env.DISCORD_TOKEN);
-
 
 async function connectDB() {
     try {
