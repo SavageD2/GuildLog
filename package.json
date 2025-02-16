@@ -4,7 +4,8 @@
   "description": "GuildLog est un bot Discord permettant de : - **Se connecter au serveur Discord** et afficher les membres ayant un rôle spécifique. - **Détecter les nouveaux membres** qui rejoignent le serveur. - **Détecter les membres qui quittent** le serveur. - **Alerter le staff** lorsqu'un ancien membre revient sur le serveur.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js \"node index.js\" \"node server.js\""
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,12 @@
   },
   "homepage": "https://github.com/SavageD2/GuildLog#readme",
   "dependencies": {
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
     "discord.js": "^14.18.0",
     "dotenv": "^16.4.7",
-    "mongoose": "^8.10.0"
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "winston": "^3.17.0"
   }
 }

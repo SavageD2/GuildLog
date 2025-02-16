@@ -1,0 +1,170 @@
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:27.529Z'
+}
+{
+  message: 'GuildLog#1692 est connecté et prêt !',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:27.804Z'
+}
+{
+  message: '✅ Membres ayant le rôle THE UNDEFEATED :',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:27.907Z'
+}
+{
+  message: '- yggraziel (224925297747689472)',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:27.908Z'
+}
+{
+  message: '- vanilleperro (232613807615115277)',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:27.908Z'
+}
+{
+  message: '- savage_d2 (234010633119596544)',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:27.909Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : savage_d2',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.018Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : kevinschaub',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.025Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggdrack_mattcab_number_2',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.027Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : lupeegz',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.063Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : adamleprince',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.065Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : bellize',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.069Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : vanilleperro',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.075Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggraziel',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.076Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : calissa6930',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.120Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : GuildLog#1692',
+  level: 'info',
+  timestamp: '2025-02-15T01:32:28.124Z'
+}
+{
+  message: '🚀 Démarrage du bot Discord...',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:40.329Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:40.336Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:40.581Z'
+}
+{
+  message: 'GuildLog#1692 est connecté et prêt !',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:40.982Z'
+}
+{
+  message: '✅ Membres ayant le rôle THE UNDEFEATED :',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.087Z'
+}
+{
+  message: '- yggraziel (224925297747689472)',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.088Z'
+}
+{
+  message: '- vanilleperro (232613807615115277)',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.088Z'
+}
+{
+  message: '- savage_d2 (234010633119596544)',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.089Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggdrack_mattcab_number_2',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.201Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : kevinschaub',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.204Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : bellize',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.207Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : calissa6930',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.234Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : adamleprince',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.236Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : lupeegz',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.237Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : vanilleperro',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.248Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggraziel',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.249Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : savage_d2',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.287Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : GuildLog#1692',
+  level: 'info',
+  timestamp: '2025-02-16T16:34:41.295Z'
+}
