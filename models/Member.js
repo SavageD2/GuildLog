@@ -1,13 +1,18 @@
 const mongoose = require("mongoose");
 
 const memberSchema = new mongoose.Schema({
-    discordId: { type: String, required: true, unique: true },
+    discordId: { type: String, required: false, unique: true },
     username: { type: String, required: true },
     roles: { type: [String], default: [] },
     avatarId: { type: String, default: null },
     joinedAt: { type: Date },
-    leftAt: { type: Date, default: null }
-});
+    leftAt: { type: Date, default: null },
+    inGameDetails: {
+        guildRank: { type: String, default: null },
+        permissions: { type: [String], default: [] },
+    },
+    isInGame: { type: Boolean, default: false },
+}, { timestamps: true });
 
 memberSchema.methods.getAvatarUrl = function () {
     return this.avatarId
