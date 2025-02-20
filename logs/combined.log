@@ -1762,3 +1762,703 @@
   level: 'info',
   timestamp: '2025-02-17T02:50:30.902Z'
 }
+{
+  message: '🚀 Démarrage du bot Discord...',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:00.903Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:00.987Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:00.994Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:01.183Z'
+}
+{
+  message: 'GuildLog#1692 est connecté et prêt !',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:01.717Z'
+}
+{
+  message: '✅ Membres ayant le rôle THE UNDEFEATED :',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:01.827Z'
+}
+{
+  message: '- yggraziel (224925297747689472)',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:01.828Z'
+}
+{
+  message: '- vanilleperro (232613807615115277)',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:01.829Z'
+}
+{
+  message: '- savage_d2 (234010633119596544)',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:01.829Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : savage_d2',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:01.982Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : GuildLog#1692',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:01.983Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : kevinschaub',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:02.000Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : bellize',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:02.002Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggdrack_mattcab_number_2',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:02.003Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : calissa6930',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:02.018Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggraziel',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:02.019Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : vanilleperro',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:02.020Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : adamleprince',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:02.071Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : lupeegz',
+  level: 'info',
+  timestamp: '2025-02-20T00:25:02.086Z'
+}
+{
+  message: '🚀 Démarrage du bot Discord...',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:17.857Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:17.923Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:17.927Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.094Z'
+}
+{
+  message: 'GuildLog#1692 est connecté et prêt !',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.462Z'
+}
+{
+  message: '✅ Membres ayant le rôle THE UNDEFEATED :',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.582Z'
+}
+{
+  message: '- yggraziel (224925297747689472)',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.583Z'
+}
+{
+  message: '- vanilleperro (232613807615115277)',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.583Z'
+}
+{
+  message: '- savage_d2 (234010633119596544)',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.584Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : GuildLog#1692',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.689Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : savage_d2',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.714Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : kevinschaub',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.716Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggdrack_mattcab_number_2',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.717Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : bellize',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.728Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggraziel',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.729Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : adamleprince',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.730Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : vanilleperro',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.745Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : lupeegz',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.791Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : calissa6930',
+  level: 'info',
+  timestamp: '2025-02-20T00:33:18.795Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T00:40:50.669Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T00:40:50.682Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T00:40:50.892Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T00:46:30.900Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T00:46:30.911Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T00:46:31.101Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T00:51:43.202Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T00:51:43.213Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T00:51:43.412Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T00:57:25.750Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T00:57:25.762Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T00:57:25.959Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T01:01:07.992Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T01:01:08.003Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:01:08.194Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T01:48:32.940Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T01:48:32.950Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:48:33.217Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T01:48:33.941Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:48:34.095Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T01:53:45.709Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T01:53:45.719Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:53:45.915Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T01:53:46.695Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:53:46.855Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T01:54:30.857Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T01:54:30.869Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:54:31.049Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T01:54:31.800Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:54:31.959Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:32.447Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:33.363Z'
+}
+{
+  message: '🚀 Démarrage du bot Discord...',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:45.945Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.013Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.017Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.176Z'
+}
+{
+  message: 'GuildLog#1692 est connecté et prêt !',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.578Z'
+}
+{
+  message: '✅ Membres ayant le rôle THE UNDEFEATED :',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.685Z'
+}
+{
+  message: '- yggraziel (224925297747689472)',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.686Z'
+}
+{
+  message: '- vanilleperro (232613807615115277)',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.687Z'
+}
+{
+  message: '- savage_d2 (234010633119596544)',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.688Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : GuildLog#1692',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.775Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggraziel',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.778Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : kevinschaub',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.790Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggdrack_mattcab_number_2',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.791Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : bellize',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.804Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : adamleprince',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.805Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : vanilleperro',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.865Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : savage_d2',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.866Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : lupeegz',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.905Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : calissa6930',
+  level: 'info',
+  timestamp: '2025-02-20T01:56:46.909Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:16:08.606Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:16:09.536Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:17:46.202Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:17:47.132Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:18:44.970Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:18:45.976Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:23:02.017Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:23:02.994Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:33:28.015Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:33:29.197Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:37:01.893Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:37:02.859Z'
+}
+{
+  message: '🚀 Démarrage du bot Discord...',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:05.939Z'
+}
+{
+  message: '\n' +
+    '   ____       _ _     _ _                     _    ____ ___ \n' +
+    '  / ___|_   _(_) | __| | |    ___   __ _     / \\  |  _ \\_ _|\n' +
+    ' | |  _| | | | | |/ _` | |   / _ \\ / _` |   / _ \\ | |_) | | \n' +
+    ' | |_| | |_| | | | (_| | |__| (_) | (_| |  / ___ \\|  __/| | \n' +
+    '  \\____|\\__,_|_|_|\\__,_|_____\\___/ \\__, | /_/   \\_\\_|  |___|\n' +
+    '                                   |___/                    \n',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.003Z'
+}
+{
+  message: '🚀 Serveur Express démarré sur http://localhost:3000',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.007Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.186Z'
+}
+{
+  message: 'GuildLog#1692 est connecté et prêt !',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.528Z'
+}
+{
+  message: '✅ Membres ayant le rôle THE UNDEFEATED :',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.630Z'
+}
+{
+  message: '- yggraziel (224925297747689472)',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.631Z'
+}
+{
+  message: '- vanilleperro (232613807615115277)',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.632Z'
+}
+{
+  message: '- savage_d2 (234010633119596544)',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.633Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggraziel',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.721Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : GuildLog#1692',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.722Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : kevinschaub',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.732Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : yggdrack_mattcab_number_2',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.735Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : adamleprince',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.744Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : calissa6930',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.749Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : vanilleperro',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.754Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : savage_d2',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.766Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : lupeegz',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.828Z'
+}
+{
+  message: '✅ Membre enregistré ou mis à jour : bellize',
+  level: 'info',
+  timestamp: '2025-02-20T02:38:06.831Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:42:30.623Z'
+}
+{
+  message: '✅ Connexion à la base de données réussie !',
+  level: 'info',
+  timestamp: '2025-02-20T02:42:31.582Z'
+}
