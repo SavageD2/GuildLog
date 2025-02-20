@@ -7,10 +7,6 @@ const memberSchema = new mongoose.Schema({
     avatarId: { type: String, default: null },
     joinedAt: { type: Date },
     leftAt: { type: Date, default: null },
-    inGameDetails: {
-        guildRank: { type: String, default: null },
-        permissions: { type: [String], default: [] },
-    },
     isInGame: { type: Boolean, default: false },
 }, { timestamps: true });
 

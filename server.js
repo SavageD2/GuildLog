@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const connectDB = require("./services/database");
 const memberRoutes = require("./routes/members");
+const guildMembersRoutes = require("./routes/guildMembers");
 const logger = require("./utils/logger");
 const cors = require("cors");
 const figlet = require("figlet");
@@ -9,7 +10,7 @@ const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
 const app = express();
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 const swaggerOptions = {
   definition: {
@@ -21,8 +22,9 @@ const swaggerOptions = {
     },
     servers: [{ url: `http://localhost:${PORT}` }],
   },
-  apis: ["./routes/members.js"],
+  apis: ["./routes/members.js", "./routes/guildMembers.js"],
 };
+
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
@@ -32,16 +34,19 @@ app.use(cors());
 connectDB();
 
 app.use("/api/members", memberRoutes);
+app.use("/api/guildmembers", guildMembersRoutes);
 
-figlet("GuildLog API", (err, data) => {
-  if (err) {
-    logger.error("❌ Erreur lors du chargement de la bannière ASCII");
-  } else {
-    logger.info("\n" + data + "\n");
-  }
-  app.listen(PORT, () => {
-    logger.info(`🚀 Serveur Express démarré sur http://localhost:${PORT}`);
+if (process.env.NODE_ENV !== "test") {
+  figlet("GuildLog API", (err, data) => {
+    if (err) {
+      logger.error("❌ Erreur lors du chargement de la bannière ASCII");
+    } else {
+      logger.info("\n" + data + "\n");
+    }
+    app.listen(PORT, () => {
+      logger.info(`🚀 Serveur Express démarré sur http://localhost:${PORT}`);
+    });
   });
-});
+}
 
 module.exports = app;
